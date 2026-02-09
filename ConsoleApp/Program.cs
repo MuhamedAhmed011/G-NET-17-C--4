@@ -21,6 +21,45 @@ namespace ConsoleApp
             //}
             //string productList = sb.ToString();
             #endregion
+
+            #region Question02
+            //Console.Write("Enter age: ");
+            //int age = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter day of week (1–7, 6=Fri, 7=Sat): ");
+            //int day = int.Parse(Console.ReadLine());
+
+            //Console.Write("Do you have a student ID? (yes/no): ");
+            //bool hasStudentId = Console.ReadLine().ToLower() == "yes";
+
+            //double price = 0;
+
+            //if (age < 5)
+            //{
+            //    price = 0;
+            //}
+            //else if (age <= 12)
+            //{
+            //    price = 30;
+            //}
+            //else if (age <= 59)
+            //{
+            //    price = 50;
+            //}
+            //else
+            //{
+            //    price = 25;
+            //}
+            //if (price > 0 && (day == 6 || day == 7))
+            //{
+            //    price += 10;
+            //}
+            //if (price > 0 && hasStudentId)
+            //{
+            //    price *= 0.8;
+            //}
+            //Console.WriteLine("\nFinal Ticket Price: " + price + " LE"); 
+            #endregion
         }
     }
 }
