@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Text;
 
 namespace ConsoleApp
@@ -106,6 +107,18 @@ namespace ConsoleApp
             //}; 
             #endregion
 
+            #region Question04
+            //int temperature = 35;
+
+            //string weatherAdvice =
+            //    temperature < 0 ? "Freezing! Stay indoors." :
+            //    temperature < 15 ? "Cold. Wear a jacket." :
+            //    temperature < 25 ? "Pleasant weather." :
+            //    temperature < 35 ? "Warm. Stay hydrated." : "Hot! Avoid sun exposure.";
+
+            //// Ternary is better when The logic is simple
+            //// if-else is better when There are many conditions 
+            #endregion
         }
     }
     }
