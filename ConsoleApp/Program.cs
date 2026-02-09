@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Microsoft.VisualBasic.FileIO;
+using System.Text;
 
 namespace ConsoleApp
 {
@@ -60,6 +61,52 @@ namespace ConsoleApp
             //}
             //Console.WriteLine("\nFinal Ticket Price: " + price + " LE"); 
             #endregion
+
+            #region Question03
+            // a
+            //string fileExtension = ".pdf";
+            //string fileType;
+
+            //switch (fileExtension)
+            //{
+            //    case ".pdf":
+            //        fileType = "PDF Document";
+            //        break;
+
+            //    case ".doc":
+            //    case ".docx":
+            //        fileType = "Word Document";
+            //        break;
+
+            //    case ".xls":
+            //    case ".xlsx":
+            //        fileType = "Excel Spreadsheet";
+            //        break;
+
+            //    case ".jpg":
+            //    case ".png":
+            //    case ".gif":
+            //        fileType = "Image File";
+            //        break;
+
+            //    default:
+            //        fileType = "Unknown File Type";
+            //        break;
+
+            //// b
+            //string fileExtension = ".pdf";
+
+            //string fileType = fileExtension switch
+            //{
+            //    ".pdf" => "PDF Document",
+            //    ".doc" or ".docx" => "Word Document",
+            //    ".xls" or ".xlsx" => "Excel Spreadsheet",
+            //    ".jpg" or ".png" or ".gif" => "Image File",
+            //    _ => "Unknown File Type"
+            //}; 
+            #endregion
+
         }
+    }
     }
 }
